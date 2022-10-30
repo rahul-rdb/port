@@ -1,0 +1,60 @@
+.project-screen-wrapper{
+    background: linear-gradient(to right, #7EE8FA, #EEC0C6);
+}
+
+.project-screen{
+    position: relative;
+}
+
+.screen-display-wrapper{
+    width:45%;
+    padding-left: 28px;
+}
+.screen-display{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+.laptop-screen-wrapper{
+    width: 55%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.laptop-screen{
+    position: sticky;
+    top: 125px;
+    width: 650px;
+    height: 362px;
+    border-radius: 50px;
+    box-shadow: var(--bg-shadow);
+    max-height: 100vh;
+    padding: 26px 26px;
+    background-color: var(--bg-laptop);
+}
+.laptop-screen-display{
+    height:100%;
+    background-color: var(--bg-gray);
+    border-radius: 35px;
+    overflow: hidden;
+}
+.project-image{
+    width:650px;
+    object-fit: contain;
+}
+.screen-text{
+    opacity: 0;
+}
+.text-visible{
+    opacity: 1;
+    transition: 1.25s;
+}
+.screen-name{
+    font-weight:bolder;
+    font-size: 62px;
+}
+.click{
+    font-weight: 600;
+    font-size: 17px;
+}

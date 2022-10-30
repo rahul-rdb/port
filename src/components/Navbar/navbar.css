@@ -1,0 +1,40 @@
+.nav-sticky {
+  background-color: var(--bg-lgray);
+  border-radius: 0px 15px 15px 0px;
+  padding: 8px 0px ;
+  position: fixed;
+  top: 25%;
+  left: 0;
+  z-index: 100;
+}
+.nav{
+  padding: 12px 12px;
+}
+.nav-logo {
+  height:55px;
+  width: 55px;
+}
+
+.nav-link  .nav-logo,.nav-logo3{
+  transition: transform 0.25s ease;
+}
+
+.nav-link .nav-logo:hover,.nav-logo3:hover{
+   transform: scale(1.25,1.25);
+}
+
+.nav-text {
+  color: var(--bg-white);
+  font-size: 17px;
+  margin: 11px 0px;
+}
+.nav-logo3 {
+  height:61px;
+  width: 55px;
+}
+.nav-text3 {
+  color: var(--bg-white);
+  font-size: 17px;
+  margin: 1px 0px;
+}
+

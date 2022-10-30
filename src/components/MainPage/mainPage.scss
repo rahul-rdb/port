@@ -1,0 +1,93 @@
+.bg-blue {
+  // background: #2980B9;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+//   background: #7F7FD5;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to left, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+// background-color: #08AEEA;
+// background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+
+// background-color: #FA8BFF;
+// background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+
+background-color: #A9C9FF;
+background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+
+// background-color: #74EBD5;
+// background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+ 
+
+}
+
+.main-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-image-wrapper {
+  width: 50%;
+  height: 100%;
+}
+
+.main-intro {
+  width: 50%;
+  height: 100%;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.profile-icon {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+}
+
+.gradient-border {
+  --border-width: 3px;
+  position: absolute;
+  width: 407px;
+  height: 407px;
+  border-radius: 50%;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(
+      450deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: calc(2 * 50%);
+    animation: moveGradient 4s alternate infinite;
+  }
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+
