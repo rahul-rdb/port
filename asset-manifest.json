@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.ec86bba2.css",
+    "main.css": "/port/static/css/main.d2d0f8c8.css",
     "main.js": "/port/static/js/main.25f07d53.js",
     "static/js/787.dc9ee2bf.chunk.js": "/port/static/js/787.dc9ee2bf.chunk.js",
     "static/media/zomato-clone.png": "/port/static/media/zomato-clone.bd3a44baa9ffe3fa1988.png",
@@ -9,12 +9,12 @@
     "static/media/meme-generator.png": "/port/static/media/meme-generator.c276cdf67022ac6f1b54.png",
     "static/media/linkedin.png": "/port/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/port/index.html",
-    "main.ec86bba2.css.map": "/port/static/css/main.ec86bba2.css.map",
+    "main.d2d0f8c8.css.map": "/port/static/css/main.d2d0f8c8.css.map",
     "main.25f07d53.js.map": "/port/static/js/main.25f07d53.js.map",
     "787.dc9ee2bf.chunk.js.map": "/port/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec86bba2.css",
+    "static/css/main.d2d0f8c8.css",
     "static/js/main.25f07d53.js"
   ]
 }
