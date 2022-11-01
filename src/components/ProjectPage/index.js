@@ -8,18 +8,18 @@ import ProjectText from "./ProjectText";
 function ProjectPage() {
   const projectData = [
     {
-      name: "Zomato Clone",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/zomato-clone/",
-      lapimage: zomatoClone,
-    },
-    {
       name: "CRED Clone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
       link: "https://rahul-rdb.github.io/cred-clone/",
       lapimage: credClone,
+    },
+    {
+      name: "Zomato Clone (PC only)",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+      link: "https://rahul-rdb.github.io/zomato-clone/",
+      lapimage: zomatoClone,
     },
     {
       name: "Meme Generator",

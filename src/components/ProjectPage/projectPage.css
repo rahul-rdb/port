@@ -1,60 +1,146 @@
-.project-screen-wrapper{
-    background: linear-gradient(to right, #7EE8FA, #EEC0C6);
+.project-screen-wrapper {
+  background: linear-gradient(to right, #7ee8fa, #eec0c6);
 }
 
-.project-screen{
-    position: relative;
+.project-screen {
+  position: relative;
 }
 
-.screen-display-wrapper{
-    width:45%;
-    padding-left: 28px;
+.screen-display-wrapper {
+  width: 45%;
+  padding-left: 28px;
 }
-.screen-display{
-    min-height: 100vh;
+.screen-display {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 70px;
+}
+.laptop-screen-wrapper {
+  width: 55%;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+.laptop-screen {
+  position: sticky;
+  top: 125px;
+  width: 90%;
+  height: 15.5%;
+  border-radius: 50px;
+  box-shadow: var(--bg-shadow);
+  max-height: 100vh;
+  padding: 26px 26px;
+  background-color: var(--bg-laptop);
+}
+.laptop-screen-display {
+  height: 100%;
+  background-color: var(--bg-gray);
+  border-radius: 35px;
+  overflow: hidden;
+}
+.project-image {
+  width: 100%;
+}
+.screen-text {
+  opacity: 0;
+}
+.text-visible {
+  opacity: 1;
+  transition: 1.25s;
+}
+.screen-name {
+  font-weight: bolder;
+  font-size: 62px;
+}
+.click {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+@media all and (max-width: 1024px) {
+  .laptop-screen {
+    padding: 20px 20px;
+    height: 15.5%;
+  }
+  .screen-name {
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .click {
+    font-weight: 600;
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .laptop-screen {
+    padding: 15px 15px;
+    border-radius: 35px;
+    height: 13.5%;
+  }
+  .screen-name {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .click {
+    font-weight: 600;
+    font-size: 9px;
+  }
+}
+@media all and (max-width: 641px) {
+  .laptop-screen-wrapper{
+    display: none;
+  }  
+  .screen-display-wrapper {
+    width: 100%;
+    padding: 0px;
+  }
+  .screen-name {
+    font-weight: bolder;
+    font-size: 25px;
+  }
+  .click {
+    font-weight: 600;
+    font-size: 10px;
+  }
+  .screen-display{
+    padding: 0px 0px;
+    margin: 20px 10px;
+    min-height: fit-content;
+  }
+.screen-text{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    padding-top: 70px;
 }
-.laptop-screen-wrapper{
-    width: 55%;
-    padding-top: 125px;
-    padding-bottom: 125px;
-}
-.laptop-screen{
-    position: sticky;
-    top: 125px;
-    width: 650px;
-    height: 362px;
-    border-radius: 50px;
+.laptop-screen {
+    width: 90%;
+    height: 15.5%;
+    border-radius: 10px;
     box-shadow: var(--bg-shadow);
     max-height: 100vh;
-    padding: 26px 26px;
+    padding: 7px 7px;
     background-color: var(--bg-laptop);
-}
-.laptop-screen-display{
-    height:100%;
+  }
+  .laptop-screen-display {
+    height: 100%;
     background-color: var(--bg-gray);
-    border-radius: 35px;
+    border-radius: 10px;
     overflow: hidden;
+  }
+  .screen-name{
+    font-size: 24px;
+    padding: 12px;
+  }
+  .click{
+    padding: 5px;
+  }
 }
-.project-image{
-    width:650px;
-    object-fit: contain;
+
+@media all and (min-width: 641px) {
+.mobile-screen{
+    display: none;
 }
-.screen-text{
-    opacity: 0;
-}
-.text-visible{
-    opacity: 1;
-    transition: 1.25s;
-}
-.screen-name{
-    font-weight:bolder;
-    font-size: 62px;
-}
-.click{
-    font-weight: 600;
-    font-size: 17px;
 }

@@ -4,7 +4,7 @@ import "./toolspage.css";
 function ToolsPage() {
   return (
     <div className="tools-bg">
-      <div className="tools-wrapper max-width">
+      <div className="tools-wrapper flex flex-col max-width">
         <div className="tools">
           <p>Languages: HTML, CSS, JavaScript (ReactJs)</p>
           <p>Tools: Git, GitHub, VS code</p>
@@ -12,8 +12,7 @@ function ToolsPage() {
           <p>Language Spoken: English, Hindi, Marathi</p>
         </div>
         <div className="exp">
-          Experience: I have previous working experience in Manufacturing Field
-          as a "Production Co-ordinator".
+          Experience: I have previous working experience in Manufacturing Field.
         </div>
       </div>
       <div className="footer flex max-width">By Rahul DB</div>

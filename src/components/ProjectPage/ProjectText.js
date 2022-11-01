@@ -16,7 +16,7 @@ function ProjectText({ project, i, setlaptopImage }) {
   const options = {
     root: null,
     rootMargin: "0px",
-    threshold: 0.6,
+    threshold: 0.5,
   };
 
   useEffect(() => {
@@ -42,9 +42,24 @@ function ProjectText({ project, i, setlaptopImage }) {
       ref={ref}
     >
       <div className="screen-name">{project.name}</div>
+      <div className="mobile-screen flex absolute-center">
+        <div className="laptop-screen">
+          <div className="laptop-screen-display flex absolute-center">
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={project.lapimage}
+                alt="project-img"
+                key={project.lapimage}
+                className="project-image slide-in-right"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
       {/* <div className="screen-description">{project.description}</div> */}
       <div className="click">
-        Click on the screen to open Project in new tab.<sup style={{color:"red"}}>*</sup>
+        Click on the screen to open Project in new tab.
+        <sup style={{ color: "red" }}>*</sup>
       </div>
     </div>
   );
