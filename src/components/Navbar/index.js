@@ -18,7 +18,7 @@ function Navbar() {
           <p className="nav-text">GitHub</p>
         </a>
         <a
-          href="https://github.com/rahul-rdb"
+          href="https://www.linkedin.com/in/rahul-bobade-808823255"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link flex flex-col absolute-center"
@@ -27,7 +27,7 @@ function Navbar() {
           <p className="nav-text">LinkedIn</p>
         </a>
         <a
-          href="https://github.com/rahul-rdb"
+          href="mailto:rahulbobade26@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link flex flex-col absolute-center"
