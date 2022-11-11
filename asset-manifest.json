@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/port/static/css/main.d2d0f8c8.css",
-    "main.js": "/port/static/js/main.287a3fa0.js",
+    "main.js": "/port/static/js/main.e8eba7e3.js",
     "static/js/787.dc9ee2bf.chunk.js": "/port/static/js/787.dc9ee2bf.chunk.js",
     "static/media/zomato-clone.png": "/port/static/media/zomato-clone.bd3a44baa9ffe3fa1988.png",
+    "static/media/crypto-watch.png": "/port/static/media/crypto-watch.165dd62cd1ef95e8c6f0.png",
     "static/media/Profile Icon.jpg": "/port/static/media/Profile Icon.24c27d059b52c040e24e.jpg",
     "static/media/cred-clone.png": "/port/static/media/cred-clone.640c9f3cb2c576323dfe.png",
     "static/media/meme-generator.png": "/port/static/media/meme-generator.c276cdf67022ac6f1b54.png",
     "static/media/linkedin.png": "/port/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/port/index.html",
     "main.d2d0f8c8.css.map": "/port/static/css/main.d2d0f8c8.css.map",
-    "main.287a3fa0.js.map": "/port/static/js/main.287a3fa0.js.map",
+    "main.e8eba7e3.js.map": "/port/static/js/main.e8eba7e3.js.map",
     "787.dc9ee2bf.chunk.js.map": "/port/static/js/787.dc9ee2bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2d0f8c8.css",
-    "static/js/main.287a3fa0.js"
+    "static/js/main.e8eba7e3.js"
   ]
 }
