@@ -3,6 +3,7 @@ import "./projectPage.css";
 import zomatoClone from "../../images/zomato-clone.png";
 import credClone from "../../images/cred-clone.png";
 import memeGenerator from "../../images/meme-generator.png";
+import cryptoWatch from "../../images/crypto-watch.png";
 import ProjectText from "./ProjectText";
 
 function ProjectPage() {
@@ -13,6 +14,13 @@ function ProjectPage() {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
       link: "https://rahul-rdb.github.io/cred-clone/",
       lapimage: credClone,
+    },
+    {
+      name: "Crypto Watch",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+      link: "https://rahul-rdb.github.io/crypto-watch/",
+      lapimage: cryptoWatch,
     },
     {
       name: "Zomato Clone (PC only)",
