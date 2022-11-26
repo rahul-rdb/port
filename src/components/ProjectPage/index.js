@@ -4,6 +4,7 @@ import zomatoClone from "../../images/zomato-clone.png";
 import credClone from "../../images/cred-clone.png";
 import memeGenerator from "../../images/meme-generator.png";
 import cryptoWatch from "../../images/crypto-watch.png";
+import todo from "../../images/todo.png";
 import ProjectText from "./ProjectText";
 
 function ProjectPage() {
@@ -28,6 +29,13 @@ function ProjectPage() {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
       link: "https://rahul-rdb.github.io/zomato-clone/",
       lapimage: zomatoClone,
+    },
+    {
+      name: "To Do List App",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+      link: "https://rahul-rdb.github.io/todoapp/",
+      lapimage: todo,
     },
     {
       name: "Meme Generator",
@@ -70,7 +78,6 @@ function ProjectPage() {
                   className="project-image slide-in-right"
                 />
               </a>
-              
             </div>
           </div>
         </div>
