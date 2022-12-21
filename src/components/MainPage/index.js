@@ -13,14 +13,16 @@ function MainPage() {
         </div>
         <div className="main-intro flex absolute-center flex-col">
           <p className="para">
-            Hi, I'm Rahul. A self taught developer seeking for front end developer role,
-            where I can enhance my skills and knowledge. I hold a B.E. Degree in
-            Mechanical Engineering.
+            Hi, I'm Rahul. A self taught developer seeking for front end
+            developer role, where I can enhance my skills and knowledge. I hold
+            a B.E. Degree in Mechanical Engineering.
           </p>
           <p className="para">
-            I have learnt Html5, CSS3 , JavaScript and React Js. I'm in
-            further process of learning React state management libraries and
-            react with typescript. <b>Below are some projects i've build using this tools.</b>
+            I have learnt Html5, CSS3 , JavaScript and React Js and in further
+            process of learning nodeJs and databases.
+          </p>
+          <p>
+            <b>Below are some projects i've build using this tools.</b>
           </p>
         </div>
       </div>

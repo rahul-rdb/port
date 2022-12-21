@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./projectPage.css";
 import zomatoClone from "../../images/zomato-clone.png";
 import credClone from "../../images/cred-clone.png";
-import memeGenerator from "../../images/meme-generator.png";
+// import memeGenerator from "../../images/meme-generator.png";
+import blogpage from "../../images/blogpage.png";
 import cryptoWatch from "../../images/crypto-watch.png";
 import todo from "../../images/todo.png";
 import ProjectText from "./ProjectText";
@@ -10,11 +11,11 @@ import ProjectText from "./ProjectText";
 function ProjectPage() {
   const projectData = [
     {
-      name: "CRED Clone",
+      name: "Blog Page",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/cred-clone/",
-      lapimage: credClone,
+      link: "https://rahul-rdb.github.io/blogpage/",
+      lapimage: blogpage,
     },
     {
       name: "Crypto Watch",
@@ -22,6 +23,13 @@ function ProjectPage() {
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
       link: "https://rahul-rdb.github.io/crypto-watch/",
       lapimage: cryptoWatch,
+    },
+    {
+      name: "CRED Clone",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+      link: "https://rahul-rdb.github.io/cred-clone/",
+      lapimage: credClone,
     },
     {
       name: "Zomato Clone (PC only)",
@@ -37,13 +45,13 @@ function ProjectPage() {
       link: "https://rahul-rdb.github.io/todoapp/",
       lapimage: todo,
     },
-    {
-      name: "Meme Generator",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/meme-generator/",
-      lapimage: memeGenerator,
-    },
+    // {
+    //   name: "Meme Generator",
+    //   description:
+    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+    //   link: "https://rahul-rdb.github.io/meme-generator/",
+    //   lapimage: memeGenerator,
+    // },
   ];
 
   const [laptopImage, setlaptopImage] = useState(0);

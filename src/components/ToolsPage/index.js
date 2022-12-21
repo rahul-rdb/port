@@ -7,9 +7,9 @@ function ToolsPage() {
       <div className="tools-wrapper flex flex-col max-width">
         <div className="tools">
           <p>Languages: HTML, CSS, JavaScript</p>
-          <p>Frameworks: ReactJs</p>
-          <p>UI library: Material UI</p>
-          <p>Tools: Git, GitHub, VS code</p>
+          <p>Frameworks: ReactJs, Redux </p>
+          <p>UI library: Material UI, Bootstrap</p>
+          <p>Tools: Git, GitHub, VS code, Firebase</p>
           <p>Other: AutoCAD, Solidworks(basics)</p>
           <p>Language Spoken: English, Hindi, Marathi</p>
         </div>
