@@ -13,16 +13,18 @@ function MainPage() {
         </div>
         <div className="main-intro flex absolute-center flex-col">
           <p className="para">
-            Hi, I'm Rahul. A self taught developer seeking for front end
-            developer role, where I can enhance my skills and knowledge. I hold
-            a B.E. Degree in Mechanical Engineering.
+            Hi there! My name is Rahul and I'm a self-taught developer with
+            experience using the MERN stack.
           </p>
           <p className="para">
-            I have learnt Html5, CSS3 , JavaScript and React Js and in further
-            process of learning nodeJs and databases.
+            I've built several projects using these tools and I'm passionate
+            about creating engaging and dynamic web applications.
           </p>
           <p>
-            <b>Below are some projects i've build using this tools.</b>
+            <b>
+              Welcome to my portfolio, Below you can explore my work and learn
+              more about my skills.
+            </b>
           </p>
         </div>
       </div>
