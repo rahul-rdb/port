@@ -5,11 +5,19 @@ import credClone from "../../images/cred-clone.png";
 // import memeGenerator from "../../images/meme-generator.png";
 import blogpage from "../../images/blogpage.png";
 import cryptoWatch from "../../images/crypto-watch.png";
-import todo from "../../images/todo.png";
+import airbnb from "../../images/airbnb.png";
+// import todo from "../../images/todo.png";
 import ProjectText from "./ProjectText";
 
 function ProjectPage() {
   const projectData = [
+    {
+      name: "Airbnb Clone (Modified UI PC Only)",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+      link: "https://airbnb96.netlify.app",
+      lapimage: airbnb,
+    },
     {
       name: "Blog Page",
       description:
@@ -38,13 +46,13 @@ function ProjectPage() {
       link: "https://rahul-rdb.github.io/zomato-clone/",
       lapimage: zomatoClone,
     },
-    {
-      name: "To Do List App",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/todoapp/",
-      lapimage: todo,
-    },
+    // {
+    //   name: "To Do List App",
+    //   description:
+    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+    //   link: "https://rahul-rdb.github.io/todoapp/",
+    //   lapimage: todo,
+    // },
     // {
     //   name: "Meme Generator",
     //   description:

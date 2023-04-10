@@ -2,12 +2,23 @@ import React from "react";
 import githubLogo from "../../images/github-logo.png";
 import linkedinLogo from "../../images/linkedin.png";
 import gmailLogo from "../../images/gmail.png";
+import resume from "../../images/resume.png";
 import "./navbar.css";
 
 function Navbar() {
   return (
     <div className="nav-sticky">
       <div className="nav flex absolute-center flex-col">
+        <a
+          href="https://drive.google.com/file/d/1HUEmAnszZQJrBCNuSNwEcnL5n8Fx_PlM/view?usp=share_link"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link flex flex-col absolute-center"
+          style={{ padding: "5px 3px" }}
+        >
+          <img src={resume} alt="git-logo" className="nav-logo3" />
+          <p className="nav-text3">Resume</p>
+        </a>
         <a
           href="https://github.com/rahul-rdb"
           target="_blank"

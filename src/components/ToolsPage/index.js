@@ -6,11 +6,11 @@ function ToolsPage() {
     <div className="tools-bg">
       <div className="tools-wrapper flex flex-col max-width">
         <div className="tools">
-          <p>Languages: HTML, CSS, JavaScript</p>
-          <p>Frameworks: ReactJs, Redux </p>
-          <p>UI library: Material UI, Bootstrap</p>
-          <p>Tools: Git, GitHub, VS code, Firebase</p>
-          <p>Other: AutoCAD, Solidworks(basics)</p>
+          <p>Languages: JavaScript, HTML/CSS</p>
+          <p>Frameworks/Libraries: React, Redux Toolkit-Query, ExpressJs</p>
+          <p>Databases: MongoDB, Firebase</p>
+          <p>UI Libraries/Frameworks: BootStrap, Material UI, Tailwind CSS</p>
+          <p>Developer Tools: Git, GitHub, VS Code, Postman</p>
           <p>Language Spoken: English, Hindi, Marathi</p>
         </div>
         <div className="exp">
