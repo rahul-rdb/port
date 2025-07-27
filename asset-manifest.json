@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/port/static/css/main.9d2d2195.css",
-    "main.js": "/port/static/js/main.b8599a2d.js",
-    "static/js/787.dc9ee2bf.chunk.js": "/port/static/js/787.dc9ee2bf.chunk.js",
+    "main.css": "/port/static/css/main.b8a075c8.css",
+    "main.js": "/port/static/js/main.44263287.js",
+    "static/js/787.883ba16e.chunk.js": "/port/static/js/787.883ba16e.chunk.js",
     "static/media/airbnb.png": "/port/static/media/airbnb.4ea33d7ff1ff60e32071.png",
     "static/media/blogpage.png": "/port/static/media/blogpage.4937468c1ebc108a5cdd.png",
     "static/media/zomato-clone.png": "/port/static/media/zomato-clone.bd3a44baa9ffe3fa1988.png",
@@ -11,12 +11,12 @@
     "static/media/cred-clone.png": "/port/static/media/cred-clone.640c9f3cb2c576323dfe.png",
     "static/media/linkedin.png": "/port/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/port/index.html",
-    "main.9d2d2195.css.map": "/port/static/css/main.9d2d2195.css.map",
-    "main.b8599a2d.js.map": "/port/static/js/main.b8599a2d.js.map",
-    "787.dc9ee2bf.chunk.js.map": "/port/static/js/787.dc9ee2bf.chunk.js.map"
+    "main.b8a075c8.css.map": "/port/static/css/main.b8a075c8.css.map",
+    "main.44263287.js.map": "/port/static/js/main.44263287.js.map",
+    "787.883ba16e.chunk.js.map": "/port/static/js/787.883ba16e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d2d2195.css",
-    "static/js/main.b8599a2d.js"
+    "static/css/main.b8a075c8.css",
+    "static/js/main.44263287.js"
   ]
 }
