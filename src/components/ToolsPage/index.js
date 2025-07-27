@@ -3,22 +3,21 @@ import "./toolspage.css";
 
 function ToolsPage() {
   return (
-    <div className="tools-bg">
-      <div className="tools-wrapper flex flex-col max-width">
-        <div className="tools">
-          <p>Languages: JavaScript, HTML/CSS</p>
-          <p>Frameworks/Libraries: React, Redux Toolkit-Query, ExpressJs</p>
-          <p>Databases: MongoDB, Firebase</p>
-          <p>UI Libraries/Frameworks: BootStrap, Material UI, Tailwind CSS</p>
-          <p>Developer Tools: Git, GitHub, VS Code, Postman</p>
-          <p>Language Spoken: English, Hindi, Marathi</p>
-        </div>
-        <div className="exp">
-          Experience: I have previous working experience in Manufacturing Field.
-        </div>
-      </div>
-      <div className="footer flex max-width">By Rahul DB</div>
+<div className="tools-bg">
+  <div className="tools-wrapper flex flex-col max-width">
+    <div className="tools">
+      <p><strong>Languages:</strong> TypeScript, JavaScript (ES6+), HTML, CSS</p>
+      <p><strong>Frameworks / Libraries:</strong> React.js, Next.js, React Native, Ionic/Capacitor</p>
+      <p><strong>State Management & Data Fetching:</strong> Zustand, React Query, Redux Toolkit (RTK Query)</p>
+      <p><strong>UI & Animations:</strong> Tailwind CSS, Ant Design, Framer Motion, Reanimated, React Native Paper</p>
+      <p><strong>Developer Tools:</strong> Git, GitHub, VS Code, Xcode, Android Studio, Figma (Basic)</p>
+      <p><strong>Mobile Capabilities:</strong> Push Notifications (FCM), Deep Linking, App Store & Play Store Deployment</p>
+      <p><strong>APIs & Analytics:</strong> WebSockets, Firebase Analytics</p>
     </div>
+  </div>
+  <div className="footer flex max-width">© Rahul Bobade</div>
+</div>
+
   );
 }
 

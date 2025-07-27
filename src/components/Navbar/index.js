@@ -10,7 +10,7 @@ function Navbar() {
     <div className="nav-sticky">
       <div className="nav flex absolute-center flex-col">
         <a
-          href="https://drive.google.com/file/d/1HUEmAnszZQJrBCNuSNwEcnL5n8Fx_PlM/view?usp=share_link"
+          href="https://drive.google.com/file/d/1st8jrB9xwOI7RHwgy2v0h5yyoQQKWLTf/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link flex flex-col absolute-center"
@@ -29,7 +29,7 @@ function Navbar() {
           <p className="nav-text">GitHub</p>
         </a>
         <a
-          href="https://www.linkedin.com/in/rahul-bobade-808823255"
+          href="https://www.linkedin.com/in/rahul-bobade"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-link flex flex-col absolute-center"
@@ -44,7 +44,7 @@ function Navbar() {
           className="nav-link flex flex-col absolute-center"
         >
           <img src={gmailLogo} alt="git-logo" className="nav-logo3" />
-          <p className="nav-text3">GMail</p>
+          <p className="nav-text3">Gmail</p>
         </a>
       </div>
     </div>

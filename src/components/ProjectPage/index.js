@@ -11,33 +11,33 @@ import ProjectText from "./ProjectText";
 
 function ProjectPage() {
   const projectData = [
+    // {
+    //   name: "Airbnb Clone (Modified UI PC Only)",
+    //   description:
+    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+    //   link: "https://airbnb96.netlify.app",
+    //   lapimage: airbnb,
+    // },
+    // {
+    //   name: "Blog Page",
+    //   description:
+    //     "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
+    //   link: "https://rahul-rdb.github.io/blogpage/",
+    //   lapimage: blogpage,
+    // },
     {
-      name: "Airbnb Clone (Modified UI PC Only)",
+      name: "CRED Clone",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://airbnb96.netlify.app",
-      lapimage: airbnb,
+      link: "https://rahul-rdb.github.io/cred",
+      lapimage: credClone,
     },
-    {
-      name: "Blog Page",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/blogpage/",
-      lapimage: blogpage,
-    },
-    {
+        {
       name: "Crypto Watch",
       description:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
       link: "https://rahul-rdb.github.io/crypto-watch/",
       lapimage: cryptoWatch,
-    },
-    {
-      name: "CRED Clone",
-      description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt, qui explicabo sint quod dolore iure odio nostrum earum obcaecati magnam, expedita labore placeat deleniti enim nobis repellat, veniam ea?",
-      link: "https://rahul-rdb.github.io/cred-clone/",
-      lapimage: credClone,
     },
     {
       name: "Zomato Clone (PC only)",
